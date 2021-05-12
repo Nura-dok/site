@@ -1,0 +1,45 @@
+
+
+
+html {
+  font-family: Roboto, sans-serif;
+}
+body {
+  background: #111;
+  }
+* {
+  color: black;
+}
+
+h1 {
+  color: blue;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: black;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+a {
+  color: black;
+}
+
+.cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cont-type {
+  min-width: 90px;
+}
+img {
+  left: 50px;
+  border: 2px;
+}
+body {
+  background: salmon;
+  }

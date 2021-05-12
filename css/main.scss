@@ -1,0 +1,43 @@
+$color1: blue;
+$color2: black;
+
+html {
+    font-family: Roboto, sans-serif;
+}
+*{
+    color: $color2;
+}
+h1 {
+    color: $color1;
+    margin-bottom: 0.25em;
+}
+h2 {
+    color: $color2;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+
+}
+a {
+    color: $color2;
+
+}
+.conts {
+    margin-bottom: 2em;
+}
+.cont {
+    display: flex;
+    &-type {
+        min-width: 90px;
+
+    }
+}
+
+img {
+    left: 50px;
+    border: 2px;
+}
+.block {
+    background-color: blanchedalmond;
+}
+
